@@ -42,9 +42,9 @@ interface HandlerObserverInterface
 	/**
 	 * If a handler implements this interface and method, it gets informed any time a write access was performed on an instance.
 	 *
-	 * @param AccessInstanceInterface $accessInstance
+	 * @param AccessInstanceInterface|callable $accessInstance
 	 * @param string $identification
 	 * @param $newValue
 	 */
-	public function accessWillChange(AccessInstanceInterface $accessInstance, string $identification, $newValue);
+	public function accessWillChange($accessInstance, string $identification, $newValue);
 }

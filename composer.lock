@@ -1,0 +1,364 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7f2f07dc1a3fd3a8e98fd4d3f4f242da",
+    "packages": [
+        {
+            "name": "ikarus/raspberry-pinout",
+            "version": "v0.3.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tasoftch/ikarus-raspberry-pinout.git",
+                "reference": "54e5a9dc952ea4e37472c7512b263967735e2ac8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tasoftch/ikarus-raspberry-pinout/zipball/54e5a9dc952ea4e37472c7512b263967735e2ac8",
+                "reference": "54e5a9dc952ea4e37472c7512b263967735e2ac8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcntl": "*",
+                "php": ">=7.2"
+            },
+            "suggest": {
+                "ext-pcntl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ikarus\\Raspberry\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Abplanalp",
+                    "email": "info@tasoft.ch"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/tasoftch/ikarus-raspberry-pinout/issues",
+                "source": "https://github.com/tasoftch/ikarus-raspberry-pinout/tree/v0.3.9"
+            },
+            "time": "2021-07-17T08:10:59+00:00"
+        },
+        {
+            "name": "ikarus/sps",
+            "version": "v0.8.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tasoftch/ikarus-sps.git",
+                "reference": "5b1816e915a9d18bc12faf3da75b303f742a75d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tasoftch/ikarus-sps/zipball/5b1816e915a9d18bc12faf3da75b303f742a75d3",
+                "reference": "5b1816e915a9d18bc12faf3da75b303f742a75d3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcntl": "*",
+                "ext-posix": "*",
+                "ext-sockets": "*",
+                "php": ">=7.2",
+                "tasoft/event-manager": "^1.0",
+                "tasoft/process": "^1.0",
+                "tasoft/value-injector": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ikarus\\SPS\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Abplanalp",
+                    "email": "info@tasoft.ch"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/tasoftch/ikarus-sps/issues",
+                "source": "https://github.com/tasoftch/ikarus-sps/tree/v0.8.6"
+            },
+            "time": "2022-04-13T15:32:29+00:00"
+        },
+        {
+            "name": "ikarus/sps-i2c-gpio-extender",
+            "version": "v0.8.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tasoftch/ikarus-sps-gpio-extender.git",
+                "reference": "f82498a7dac145d4817574ace45e216b980a01b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tasoftch/ikarus-sps-gpio-extender/zipball/f82498a7dac145d4817574ace45e216b980a01b3",
+                "reference": "f82498a7dac145d4817574ace45e216b980a01b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">7.2",
+                "tasoft/php-i2c-extension": "^0.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ikarus\\SPS\\I2C\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Abplanalp",
+                    "email": "info@tasoft.ch"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/tasoftch/ikarus-sps-gpio-extender/issues",
+                "source": "https://github.com/tasoftch/ikarus-sps-gpio-extender/tree/v0.8.10"
+            },
+            "time": "2022-04-14T10:37:37+00:00"
+        },
+        {
+            "name": "tasoft/collection",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tasoftch/php-collection.git",
+                "reference": "b3973dfb55454370c3b978d741270f634d34d3c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tasoftch/php-collection/zipball/b3973dfb55454370c3b978d741270f634d34d3c7",
+                "reference": "b3973dfb55454370c3b978d741270f634d34d3c7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TASoft\\Collection\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Abplanalp",
+                    "email": "info@tasoft.ch"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/tasoftch/php-collection/issues",
+                "source": "https://github.com/tasoftch/php-collection/tree/v1.0.1"
+            },
+            "time": "2020-08-27T21:07:58+00:00"
+        },
+        {
+            "name": "tasoft/event-manager",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tasoftch/php-event-manager.git",
+                "reference": "aeefa3f91d106ee1feb67bb98449d1505750dffa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tasoftch/php-event-manager/zipball/aeefa3f91d106ee1feb67bb98449d1505750dffa",
+                "reference": "aeefa3f91d106ee1feb67bb98449d1505750dffa",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2",
+                "tasoft/collection": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TASoft\\EventManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Abplanalp",
+                    "email": "info@tasoft.ch"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/tasoftch/php-event-manager/issues",
+                "source": "https://github.com/tasoftch/php-event-manager/tree/master"
+            },
+            "time": "2020-04-21T18:24:57+00:00"
+        },
+        {
+            "name": "tasoft/php-i2c-extension",
+            "version": "v0.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tasoftch/php-i2c-extension.git",
+                "reference": "83de6b53919fd6a67b3d236cae053fccde8e4de9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tasoftch/php-i2c-extension/zipball/83de6b53919fd6a67b3d236cae053fccde8e4de9",
+                "reference": "83de6b53919fd6a67b3d236cae053fccde8e4de9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TASoft\\Bus\\": "PHP"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "thomas",
+                    "email": "thomas@tasoft.ch"
+                }
+            ],
+            "description": "A simple I2C extension for PHP to read from and write to i2c bus.",
+            "support": {
+                "issues": "https://github.com/tasoftch/php-i2c-extension/issues",
+                "source": "https://github.com/tasoftch/php-i2c-extension/tree/v0.9.3"
+            },
+            "time": "2021-03-19T07:45:00+00:00"
+        },
+        {
+            "name": "tasoft/process",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tasoftch/php-process.git",
+                "reference": "3a8e96b2ad67b60ccdb0b1e7c945c34b7cd29f28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tasoftch/php-process/zipball/3a8e96b2ad67b60ccdb0b1e7c945c34b7cd29f28",
+                "reference": "3a8e96b2ad67b60ccdb0b1e7c945c34b7cd29f28",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcntl": "*",
+                "ext-posix": "*",
+                "ext-sockets": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TASoft\\Util\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Abplanalp",
+                    "email": "info@tasoft.ch"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/tasoftch/php-process/issues",
+                "source": "https://github.com/tasoftch/php-process/tree/v1.0.1"
+            },
+            "time": "2021-06-22T18:05:07+00:00"
+        },
+        {
+            "name": "tasoft/value-injector",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tasoftch/php-value-injector.git",
+                "reference": "f03f4077bd73c5ba81f5ceff0592d7ade6dc94ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tasoftch/php-value-injector/zipball/f03f4077bd73c5ba81f5ceff0592d7ade6dc94ae",
+                "reference": "f03f4077bd73c5ba81f5ceff0592d7ade6dc94ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TASoft\\Util\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Abplanalp",
+                    "email": "info@tasoft.ch"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/tasoftch/php-value-injector/issues",
+                "source": "https://github.com/tasoftch/php-value-injector/tree/master"
+            },
+            "time": "2020-04-21T18:29:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">7.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

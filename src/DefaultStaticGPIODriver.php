@@ -66,12 +66,14 @@ class DefaultStaticGPIODriver implements GPIODriverInterface
 	protected function getHandlers(): array {
 		if($this->newHandlers) {
 			ksort($this->newHandlers);
-			foreach($this->newHandlers as $handler) {
-				if(isset($this->handlers[ $ptrn = $handler->getIdentificationPattern() ]))
-					throw (new OccupiedIdentificationPatternException("Pattern $ptrn is already in use"))->setHandler($handler);
-				if($handler instanceof HandlerPreparationInterface)
-					$handler->prepare();
-				$this->handlers[$ptrn] = $handler;
+			foreach($this->newHandlers as $handlers) {
+				foreach($handlers as $handler) {
+					if(isset($this->handlers[ $ptrn = $handler->getIdentificationPattern() ]))
+						throw (new OccupiedIdentificationPatternException("Pattern $ptrn is already in use"))->setHandler($handler);
+					if($handler instanceof HandlerPreparationInterface)
+						$handler->prepare();
+					$this->handlers[$ptrn] = $handler;
+				}
 			}
 			$this->newHandlers = [];
 		}

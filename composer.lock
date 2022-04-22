@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f2f07dc1a3fd3a8e98fd4d3f4f242da",
+    "content-hash": "1f914ddf10983ed5ad2d311133291083",
     "packages": [
         {
             "name": "ikarus/raspberry-pinout",
-            "version": "v0.3.9",
+            "version": "v0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tasoftch/ikarus-raspberry-pinout.git",
-                "reference": "54e5a9dc952ea4e37472c7512b263967735e2ac8"
+                "reference": "d57c5c3e8c0de18472044c5a75412482f08accf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tasoftch/ikarus-raspberry-pinout/zipball/54e5a9dc952ea4e37472c7512b263967735e2ac8",
-                "reference": "54e5a9dc952ea4e37472c7512b263967735e2ac8",
+                "url": "https://api.github.com/repos/tasoftch/ikarus-raspberry-pinout/zipball/d57c5c3e8c0de18472044c5a75412482f08accf9",
+                "reference": "d57c5c3e8c0de18472044c5a75412482f08accf9",
                 "shasum": ""
             },
             "require": {
@@ -45,9 +45,9 @@
             ],
             "support": {
                 "issues": "https://github.com/tasoftch/ikarus-raspberry-pinout/issues",
-                "source": "https://github.com/tasoftch/ikarus-raspberry-pinout/tree/v0.3.9"
+                "source": "https://github.com/tasoftch/ikarus-raspberry-pinout/tree/v0.8.0"
             },
-            "time": "2021-07-17T08:10:59+00:00"
+            "time": "2022-04-22T19:58:19+00:00"
         },
         {
             "name": "ikarus/sps",

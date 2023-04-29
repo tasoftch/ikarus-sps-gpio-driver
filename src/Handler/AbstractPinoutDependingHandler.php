@@ -118,7 +118,7 @@ abstract class AbstractPinoutDependingHandler implements HandlerInterface, Handl
 	public function prepare()
 	{
 		if(!$this->isLoadedImmediately())
-			$this->loadPinoutEnvironment($this->pinout, $this->bypass);
+			$this->availablePinCodes = $this->loadPinoutEnvironment($this->pinout, $this->bypass);
 	}
 
 	public function getIdentificationPattern(): string

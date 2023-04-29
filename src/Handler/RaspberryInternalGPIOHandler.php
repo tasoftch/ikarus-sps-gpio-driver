@@ -84,6 +84,7 @@ class RaspberryInternalGPIOHandler extends AbstractPinoutDependingHandler
 		};
 
 		if($asBypass) {
+		    $r = $a = 0;
 			foreach($pinout->yieldInputPin($r,$a) as $bcm) {
 				$assign($bcm, $dev->getPin($bcm));
 			}
